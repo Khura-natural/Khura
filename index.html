@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Adornia Flores Eventos | Decoración, Catering y Alquiler de Mobiliario</title>
+    <meta name="description"
+        content="Adornia Flores Eventos: decoración personalizada, catering y alquiler de mobiliario para fiestas infantiles, 15 años, matrimonios y eventos corporativos en Lima." />
+    <meta name="keywords"
+        content="Adornia Flores Eventos, decoración, catering, alquiler de mobiliario, fiestas infantiles, 15 años, matrimonios, Lima, SMP" />
+
+    <link rel="canonical" href="https://tudominio.com/" />
+
+    <!-- Favicons / PWA -->
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#4F8F7A">
+
+    <!-- Bootstrap 5 (CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Tus estilos (van DESPUÉS de Bootstrap para que sobreescriban) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <header class="topbar">
+        <div class="container">
+            <div class="nav">
+                <a class="brand" href="index.html#inicio" aria-label="Adornia Eventos">
+                    <img class="brand-logo-img" src="images/logo.jpg" alt="Adornia Flores Eventos" />
+                    <div>
+                        <h1>Adornia Eventos</h1>
+                        <small>Decoración & Catering</small>
+                    </div>
+                </a>
+
+                <!-- Desktop menu -->
+                <nav class="menu" aria-label="Navegación">
+                    <a href="decoraciones.html">Decoraciones</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="corporativo.html">Corporativo</a>
+
+                    <span class="menu-sep" aria-hidden="true"></span>
+
+                    <a href="#cotizacion" class="btn btn-primary btn-sm">Cotiza ahora</a>
+                </nav>
+
+                <button class="hamburger" id="hamburger" aria-label="Abrir menú" type="button">Menú</button>
+
+                <div class="nav-cta d-flex align-items-center gap-2">
+                    <a class="btn btn-primary btn-sm" id="waTop" href="#" rel="noopener">WhatsApp</a>
+                
+                    <span class="follow-label">Síguenos:</span>
+                
+                    <a class="social-icon" href="https://instagram.com/tucuenta" target="_blank" rel="noopener"
+                        aria-label="Síguenos en Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                
+                    <a class="social-icon" href="https://www.facebook.com/AEVENTOSFLORES?locale=es_LA" target="_blank" rel="noopener"
+                        aria-label="Síguenos en Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                
+                    <a class="social-icon" href="https://tiktok.com/@tucuenta" target="_blank" rel="noopener"
+                        aria-label="Síguenos en TikTok">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile drawer -->
+    <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menú">
+        <div class="drawer-panel">
+            <div class="drawer-head">
+                <span>Menú</span>
+                <button class="btn btn-ghost" id="drawerClose" type="button">Cerrar</button>
+            </div>
+
+            <div class="drawer-links">
+                <a href="decoraciones.html" class="drawerLink">Decoraciones</a>
+                <a href="catering.html" class="drawerLink">Catering</a>
+                <a href="corporativo.html" class="drawerLink">Corporativo</a>
+
+                <div class="drawer-sep" aria-hidden="true"></div>
+
+                <a href="#paquetes" class="drawerLink">Paquetes</a>
+                <a href="#galeria" class="drawerLink">Galería</a>
+                <a href="#testimonios" class="drawerLink">Testimonios</a>
+                <a href="#cotizacion" class="drawerLink">Cotización</a>
+            </div>
+
+            <div class="drawer-actions">
+                <a class="btn btn-primary" id="waDrawer" href="#" rel="noopener">Escribir por WhatsApp</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero hero-premium" id="inicio" aria-label="Presentación">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <!-- Un solo eyebrow (más limpio y premium) -->
+                    <p class="eyebrow">Eventos en Lima  · Decoración • Catering • Corporativo</p>
+
+                    <h2>Eventos que se ven increíbles<br>y se viven sin estrés</h2>
+
+                    <p class="hero-lead">
+                        Decoración, catering y producción integral para eventos sociales
+                        y corporativos en Lima.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a class="btn btn-primary btn-xl" id="waHero" href="#" rel="noopener">Cotizar por WhatsApp</a>
+                        <a class="btn btn-outline btn-xl" href="decoraciones.html">Ver decoraciones</a>
+                    </div>
+
+                    <div class="hero-proof" aria-label="Beneficios">
+                        <span>Propuesta clara</span>
+                        <span>Montaje puntual</span>
+                        <span>Detalles premium</span>
+                        <span>Atención inmediata</span>
+                    </div>
+                </div>
+
+                <aside class="hero-card" aria-label="Resumen de servicios">
+                    <div class="mini">
+                        <strong>Atención rápida</strong><br />
+                        Cuéntanos fecha, invitados y estilo. Te enviamos opciones y rangos según tu necesidad.
+                    </div>
+
+                    <div class="kpis">
+                        <div><b>Bodas</b><small>Estética + logística</small></div>
+                        <div><b>Infantiles</b><small>Temáticas seguras</small></div>
+                        <div><b>Baby showers</b><small>Detalles personalizados</small></div>
+                        <div><b>Corporativo</b><small>Imagen y ejecución</small></div>
+                    </div>
+
+                    <div class="mini">
+                        <strong>Incluye</strong><br />
+                        Diseño, planificación, montaje/desmontaje y supervisión el día del evento.
+                    </div>
+
+                    <!-- Botones dentro de hero-card: mejor btn normal (no outline para fondos oscuros) -->
+                    <div class="hero-card-actions d-flex flex-wrap gap-2">
+                        <a class="btn" href="#galeria">Ver galería</a>
+                        <a class="btn" href="#paquetes">Ver paquetes</a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección resumen que manda a las páginas -->
+    <section class="section">
+        <div class="container">
+            <h3>¿Qué tipo de eventos realizamos?</h3>
+            <p class="sub">Conoce cada línea de servicio en detalle.</p>
+
+            <div class="grid grid-3 service-grid">
+                <a href="decoraciones.html" class="card service-link">
+                    <img src="assets/decoracion_boda.jpg" alt="Decoraciones" loading="lazy">
+                    <div class="service-meta">
+                        <h4>Decoraciones</h4>
+                        <p>Bodas, baby showers, quinceañeros y cumpleaños.</p>
+                        <span class="chip">Ver más</span>
+                    </div>
+                </a>
+
+                <a href="catering.html" class="card service-link">
+                    <img src="assets/catering.png" alt="Catering" loading="lazy">
+                    <div class="service-meta">
+                        <h4>Catering</h4>
+                        <p>Buffets, coffee break y mesas dulces.</p>
+                        <span class="chip">Ver más</span>
+                    </div>
+                </a>
+
+                <!-- Recomendación: renombra el archivo sin espacios para evitar fallos en hosting -->
+                <a href="corporativo.html" class="card service-link">
+                    <img src="assets/decoracion corporativo.jpg" alt="Corporativo" loading="lazy">
+                    <div class="service-meta">
+                        <h4>Eventos corporativos</h4>
+                        <p>Branding, lanzamientos y ferias.</p>
+                        <span class="chip">Ver más</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paquetes -->
+    <section id="paquetes" class="section section-alt">
+        <div class="container">
+            <div class="section-head">
+                <h3>Paquetes</h3>
+                <p class="sub">Rangos referenciales. Personalizamos según invitados, locación y estilo.</p>
+            </div>
+
+            <div class="grid grid-4 pricing-grid">
+                <article class="card price-card">
+                    <h4>Básico</h4>
+                    <div class="price">
+                        <div class="num">S/ 690</div>
+                        <div class="tag">desde</div>
+                    </div>
+                    <ul class="features">
+                        <li>Decoración temática simple</li>
+                        <li>Mesa principal</li>
+                        <li>2 arreglos florales</li>
+                        <li>Coordinación previa</li>
+                    </ul>
+                    <button class="btn btn-primary packageBtn" data-package="Básico" type="button">Cotizar
+                        Básico</button>
+                </article>
+
+                <article class="card price-card price-card-featured">
+                    <div class="badge">Más pedido</div>
+                    <h4>Estándar</h4>
+                    <div class="price">
+                        <div class="num">S/ 1,290</div>
+                        <div class="tag">desde</div>
+                    </div>
+                    <ul class="features">
+                        <li>Ambientación completa</li>
+                        <li>Iluminación básica</li>
+                        <li>Mesa dulce</li>
+                        <li>Coordinador en evento</li>
+                    </ul>
+                    <button class="btn btn-primary packageBtn" data-package="Estándar" type="button">Cotizar
+                        Estándar</button>
+                </article>
+
+                <article class="card price-card">
+                    <h4>Premium</h4>
+                    <div class="price">
+                        <div class="num">S/ 2,490</div>
+                        <div class="tag">desde</div>
+                    </div>
+                    <ul class="features">
+                        <li>Diseño personalizado</li>
+                        <li>Iluminación y sonido</li>
+                        <li>Catering para 50 pax</li>
+                        <li>Producción completa</li>
+                    </ul>
+                    <button class="btn btn-primary packageBtn" data-package="Premium" type="button">Cotizar
+                        Premium</button>
+                </article>
+
+                <article class="card price-card">
+                    <h4>Corporativo</h4>
+                    <div class="price">
+                        <div class="num">S/ 3,990</div>
+                        <div class="tag">desde</div>
+                    </div>
+                    <ul class="features">
+                        <li>Branding y montaje</li>
+                        <li>Coffee break/banquete</li>
+                        <li>Staff profesional</li>
+                        <li>Planificación integral</li>
+                    </ul>
+                    <button class="btn btn-primary packageBtn" data-package="Corporativo" type="button">Cotizar
+                        Corporativo</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h3>Galería</h3>
+                <p class="sub">Una selección de montajes (mejor 6 excelentes que 20 regulares).</p>
+            </div>
+
+            <div class="gallery gallery-hero" aria-label="Galería de eventos">
+                <img src="assets/decoracion_boda.jpg" alt="Decoración de boda elegante" loading="lazy">
+                <img src="assets/decoracion elegante.jpg" alt="Mesa dulce elegante" loading="lazy">
+                <img src="assets/decoracion floral.jpg" alt="Decoración floral" loading="lazy">
+                <img src="assets/decoracion 15 años.jpg" alt="Decoración de quinceañero" loading="lazy">
+                <img src="assets/decoracion corporativo.jpg" alt="Evento corporativo" loading="lazy">
+                <img src="assets/decoracion ambientacion.jpg" alt="Ambientación nocturna" loading="lazy">
+            </div>
+
+            <div class="lightbox" id="lightbox" aria-label="Vista ampliada" role="dialog" aria-modal="true">
+                <img alt="Vista ampliada" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="section section-alt">
+        <div class="container">
+            <div class="section-head">
+                <h3>Lo que dicen nuestros clientes</h3>
+                <p class="sub">Confianza real: estética, tiempos y atención.</p>
+            </div>
+
+            <div class="grid grid-3">
+                <article class="card testimonial-card">
+                    <p class="quote">“La decoración superó nuestras expectativas. Todo se vio fino y ordenado.”</p>
+                    <p class="who"><b>Ana & Luis</b> · Boda</p>
+                </article>
+
+                <article class="card testimonial-card">
+                    <p class="quote">“Puntuales y súper detallistas. La temática quedó exactamente como la pedimos.”</p>
+                    <p class="who"><b>Carla</b> · Cumpleaños infantil</p>
+                </article>
+
+                <article class="card testimonial-card">
+                    <p class="quote">“Evento corporativo impecable: presentación, servicio y tiempos perfectos.”</p>
+                    <p class="who"><b>Cliente corporativo</b></p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA final -->
+    <section id="cotizacion" class="cta-final" aria-label="Cotización">
+        <div class="container">
+            <div class="cta-box">
+                <div>
+                    <h3>¿Listo para tu evento?</h3>
+                    <p>Escríbenos por WhatsApp y te enviamos una propuesta clara según fecha, invitados y estilo.</p>
+                </div>
+                <div class="cta-actions">
+                    <a class="btn btn-primary btn-xl" id="waFinal" href="#" rel="noopener">Escribir por WhatsApp</a>
+                    <a class="btn btn-soft btn-xl" href="decoraciones.html">Ver inspiración</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer role="contentinfo" id="contacto">
+        <div class="container footer-grid">
+            <div>
+                <h4 class="footer-title">Adornia Eventos</h4>
+                <p class="footer-muted">San Martín de Porres, Lima, Perú · Atendemos Lima y alrededores.</p>
+
+            <div class="social">
+                <a class="social-icon" href="https://instagram.com/tucuenta" target="_blank" rel="noopener" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                    <span>Síguenos</span>
+                </a>
+            
+                <a class="social-icon" href="https://www.facebook.com/AEVENTOSFLORES?locale=es_LA" target="_blank" rel="noopener"
+                    aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+            
+                <a class="social-icon" href="https://tiktok.com/@tucuenta" target="_blank" rel="noopener" aria-label="TikTok">
+                    <i class="bi bi-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+            </div>
+
+
+                <p class="copyright">© 2026 Adornia Eventos. Todos los derechos reservados.</p>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Contacto</h4>
+                <p class="footer-muted">WhatsApp: +51 944 891 339</p>
+                <p class="footer-muted">Email: Adorniafloreseventos@gmail.com</p>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Enlaces</h4>
+                <p class="footer-link"><a href="decoraciones.html">Decoraciones</a></p>
+                <p class="footer-link"><a href="catering.html">Catering</a></p>
+                <p class="footer-link"><a href="corporativo.html">Corporativo</a></p>
+                <p class="footer-link"><a href="#paquetes">Paquetes</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp FAB -->
+    <button class="fab" id="fab" title="Atención por WhatsApp" aria-label="Atención por WhatsApp" type="button">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <path
+                d="M19.11 17.53c-.27-.14-1.62-.8-1.87-.89-.25-.09-.43-.14-.61.14-.18.27-.7.89-.86 1.07-.16.18-.32.2-.59.07-.27-.14-1.15-.42-2.19-1.34-.81-.72-1.35-1.6-1.51-1.87-.16-.27-.02-.41.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.46.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.52-.45-.45-.61-.46l-.52-.01c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27 0 1.34.98 2.64 1.12 2.82.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.56.58.65.21 1.24.18 1.71.11.52-.08 1.62-.66 1.85-1.3.23-.64.23-1.18.16-1.3-.07-.11-.25-.18-.52-.32z" />
+            <path
+                d="M26.7 5.3C23.9 2.5 20.2 1 16.2 1 8.3 1 1.9 7.4 1.9 15.3c0 2.5.7 4.9 1.9 7L1 31l8.9-2.8c2 1.1 4.2 1.7 6.4 1.7h.1c7.9 0 14.3-6.4 14.3-14.3 0-3.8-1.5-7.5-4.3-10.3zM16.3 27.5h-.1c-2.1 0-4.1-.6-5.9-1.6l-.4-.2-5.3 1.7 1.7-5.1-.3-.4c-1.2-1.9-1.8-4-1.8-6.3C4.2 8.8 9.6 3.4 16.2 3.4c3.2 0 6.2 1.2 8.4 3.5 2.2 2.2 3.5 5.2 3.5 8.4 0 6.6-5.4 12.2-11.8 12.2z" />
+        </svg>
+    </button>
+
+    <!-- Bootstrap 5 (JS Bundle con Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Tu JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
